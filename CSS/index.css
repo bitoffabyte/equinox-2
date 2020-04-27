@@ -3,23 +3,59 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #6696ba;
+    background-color: #FFEECF;
     transition: all 1s;
     /* background-color: rgb(66, 0, 151); */
     overflow: hidden;
 
+    
 }
+
+
+
+
+.orientation
+{
+  display:none;
+  height: 0vh;
+}
+.point
+{
+  margin-top: 15%;
+  height: 20px;
+  width: 20px;
+  border-radius:20px;
+  display: block;
+  border-width: 0;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 50%;
+  background-color:rgb(228, 162, 31);
+  z-index:0;
+}
+@keyframes example {
+    0%      {left:49%; top:-15%;}
+    33.33%  {left:28%; top:47%;}
+    66.33%  {left:70%; top:47%;}
+    100%    {left:49%; top:-15%;}
+  }
+
+
+  
 canvas{
     height: 100%;
+    width: 100%;
     position: absolute;
     z-index: 5;
 }
 .center{
-    width: 70%;
+    width: 50%;
     height: 100%;
     margin: 0 auto;
     display: flex;
-    margin-top:4% ;
+    margin-top:0% ;
     flex-direction: column;
 }
 .logo-bg{
@@ -33,10 +69,11 @@ canvas{
     width: 20%;
 }
 .cloud-img{
-    width: 30%;
+    width: 10%;
 }
 .dd{
     z-index: 10;
+    margin-top: 40%;
 
 }
 #cloud2{
@@ -51,8 +88,9 @@ canvas{
 
 }
 #cloud1{
-    margin: 0 auto;
+    margin: 8% auto;
     z-index: 10;
+
 
 }
 #about{
@@ -64,6 +102,15 @@ canvas{
 #faq{
     display: none;
 }
+
+
+.h1logo{
+    width: 50%;
+}
+
+
+
+
 .content{
     height: 80%;
     width: 70%;
