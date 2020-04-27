@@ -159,7 +159,7 @@ canvas{
 .faqq{
     width:100%;
     padding: 10px;
-    background-color: #E5DE44;
+    background-color: #FFEECF;
     border-radius: 10px;
     margin: 10px;
     text-align: justify;
@@ -170,7 +170,7 @@ canvas{
     align-items: center;
     width:90%;
     padding: 10px;
-    background-color: #E5DE44;
+    background-color: #FFEECF;
     border-radius: 10px;
     margin: auto;
     text-align: justify;
@@ -181,7 +181,7 @@ canvas{
     width:90%;
     border-radius: 10px;
     padding: 10px;
-    background-color: #E5DE44;
+    background-color: #FFEECF;
     display: none;
     transition: all 1s;
     text-align: justify;
@@ -193,7 +193,7 @@ canvas{
     width:100%;
     border-radius: 10px;
     padding: 10px;
-    background-color: #E5DE44;
+    background-color: #FFEECF;
     display: none;
     transition: all 1s;
     text-align: justify;
@@ -263,10 +263,11 @@ canvas{
     }
     .faq1{
         width: 90%;
-        margin: 0;
+        margin: 0px;
     }
     .faq2{
         width: 90%;
         margin: 0;
+        margin-top: -10px;
     }
 }
