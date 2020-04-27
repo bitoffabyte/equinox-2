@@ -1,7 +1,10 @@
 var aboutnav = document.querySelector("#cloud1")
 var faqnav = document.querySelector("#cloud2")
 var sponnav = document.querySelector("#cloud3")
-var images = document.querySelectorAll(".cloud-img")
+
+var aboutnavm = document.querySelector("#cloudm1")
+var faqnavm = document.querySelector("#cloudm2")
+var sponnavm = document.querySelector("#cloudm3")
 
 var cont = document.querySelector(".content")
 var can = document.querySelector("canvas")
@@ -13,16 +16,12 @@ var spon = document.querySelector("#spon")
 
 can.addEventListener("click",function(){
     cont.style.opacity = 0
-    cont.style.zIndex = 0
+    cont.style.zIndex = -1
     about.style.display = "none"
     faq.style.display = "none"
     spon.style.display = "none"
-
-
-    for(var i= 0;i<images.length;i++){
-        images[i].style.opacity = 1
-        images[i].style.zIndex = 100
-    }
+    can.style.zIndex = -1
+    
 
 })
 
@@ -30,6 +29,8 @@ aboutnav.addEventListener("click",function(){
     console.log("oi")
     cont.style.opacity = 1
     cont.style.zIndex = 20
+    can.style.zIndex = 19
+
     about.style.display = "block"
     faq.style.display = "none"
     spon.style.display = "none"
@@ -45,6 +46,8 @@ sponnav.addEventListener("click",function(){
     console.log("oi")
     cont.style.opacity = 1
     cont.style.zIndex = 20
+    can.style.zIndex = 19
+
     about.style.display = "none"
     faq.style.display = "none"
     spon.style.display = "block"
@@ -63,6 +66,8 @@ faqnav.addEventListener("click",function(){
     console.log("oi")
     cont.style.opacity = 1
     cont.style.zIndex = 20
+    can.style.zIndex = 19
+
     about.style.display = "none"
     faq.style.display = "block"
     spon.style.display = "none"
@@ -74,6 +79,51 @@ faqnav.addEventListener("click",function(){
         images[i].style.zIndex = 0
 
     }
+
+})
+
+
+
+
+
+
+aboutnavm.addEventListener("click",function(){
+    console.log("oi")
+    cont.style.opacity = 1
+    cont.style.zIndex = 20
+    can.style.zIndex = 19
+    about.style.display = "block"
+    faq.style.display = "none"
+    spon.style.display = "none"
+
+
+
+})
+sponnavm.addEventListener("click",function(){
+    console.log("oi")
+    cont.style.opacity = 1
+    cont.style.zIndex = 20
+    can.style.zIndex = 19
+
+    about.style.display = "none"
+    faq.style.display = "none"
+    spon.style.display = "block"
+
+
+
+})
+
+faqnavm.addEventListener("click",function(){
+    console.log("oi")
+    cont.style.opacity = 1
+    cont.style.zIndex = 20
+    can.style.zIndex = 19
+
+    about.style.display = "none"
+    faq.style.display = "block"
+    spon.style.display = "none"
+
+
 
 })
 

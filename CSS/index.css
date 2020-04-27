@@ -13,7 +13,9 @@ body{
     
 }
 
-
+html{
+    height:100%
+}
 
 
 .orientation
@@ -63,7 +65,7 @@ canvas{
 .logo-bg{
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: absolute;
     z-index: 0;
 }
 .logo{
@@ -127,7 +129,8 @@ canvas{
     box-shadow: 10px 10px 8px #888888;
     padding: 20px;
     overflow: auto;
-    -ms-overflow-style: none;    
+    -ms-overflow-style: none;   
+    z-index: 0; 
 }
 .content::-webkit-scrollbar {
     display: none;
@@ -197,43 +200,73 @@ canvas{
     cursor: pointer;
 
 }
+.centerm{
+    display: none;
+}
 @media only screen and (max-width: 900px) {
-    .logo{
-        margin-top: 30%;
-        width: 60%;
-    }
-    canvas{
-        z-index: 0;
-    }
+
     .center{
-        position: fixed;
-        flex-direction: row;
+        display: none;
     }
-    .img1{
-        height: 10%;
-        width: 40%;
+    .centerm{
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 10%;
+        z-index: 10;
+
+    }
+    .content{
+        z-index: -1;
+        width: 90%;
+        position: fixed;
+        left: 5%;
+        margin: auto;
+        padding: 0;
     }
     .cloud-img{
-        width: 30;
+        width: 33.33%;
+    }
+    .logom{
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-bg{
+        display: none;
     }
     .point{
         display: none;
     }
-    .dd{
-        height: 100%;
+    #cloudm2{
+        float: left;
+        z-index: 10;
+    }
+    #cloudm3{
+        float: right;
+        z-index: 10;
+
+    }
+    #cloudm1{
+        margin: auto;
+        z-index: 10;
+
+    }
+    canvas{
+        z-index: -1;
+    }
+
+    .faqc{
+        flex-direction: column;
+    }
+    .faq1{
+        width: 90%;
         margin: 0;
     }
-    #cloud2{
-        float: left;
-        z-index: 100;
-    }
-    #cloud3{
-        float: right;
-        z-index: 100;
-    
-    }
-    #cloud1{
-        z-index: 100;
-        
+    .faq2{
+        width: 90%;
+        margin: 0;
     }
 }
