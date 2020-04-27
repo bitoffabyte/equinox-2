@@ -197,4 +197,12 @@ canvas{
     cursor: pointer;
 
 }
-@media all
+@media only screen and (max-width: 900px) {
+    .logo{
+        margin-top: 30%;
+        width: 60%;
+    }
+    .center{
+        flex-direction: row;
+    }
+}
