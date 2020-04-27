@@ -5,7 +5,7 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #FFEECF;
+    background-color: #202040;
     transition: all 1s;
     /* background-color: rgb(66, 0, 151); */
     overflow: hidden;
@@ -46,7 +46,23 @@ html{
     100%    {left:49%; top:-15%;}
   }
 
+.ss{
+    display: flex;
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
+}
 
+.sponlogo{
+    width: 20%;
+    margin: 5%;
+}
+.spons{
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 9%;
+}
   
 canvas{
     height: 100%;
@@ -94,6 +110,9 @@ canvas{
     z-index: 10;
 
 }
+.h1logo{
+    margin-top: -5%;
+}
 #cloud1{
     margin: 4% auto;
     z-index: 10;
@@ -121,16 +140,17 @@ canvas{
     width: 70%;
     top: 5%;
     left: 15%;
-    background-color: 	#04BCAF;
+    color: rgb(255, 255, 255);
+    background-color: 	#543864;
     border-radius: 40px;
     position: fixed;
     opacity: 0;
     transition: all 1s;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 10px 10px 8px #000000;
     padding: 20px;
     overflow: auto;
     -ms-overflow-style: none;   
-    z-index: 0; 
+    font-size: 110%; 
 }
 .content::-webkit-scrollbar {
     display: none;
@@ -156,10 +176,17 @@ canvas{
     margin: 20px;
 
 }
+.faqlogo{
+    width: 40%;
+    margin-top:1% ;
+}
+.sl{
+    margin-top: 2%;
+}
 .faqq{
     width:100%;
     padding: 10px;
-    background-color: #FFEECF;
+    background-color: #ff6363d5;
     border-radius: 10px;
     margin: 10px;
     text-align: justify;
@@ -170,7 +197,7 @@ canvas{
     align-items: center;
     width:90%;
     padding: 10px;
-    background-color: #FFEECF;
+    background-color: #ff6363d5;
     border-radius: 10px;
     margin: auto;
     text-align: justify;
@@ -181,7 +208,7 @@ canvas{
     width:90%;
     border-radius: 10px;
     padding: 10px;
-    background-color: #FFEECF;
+    background-color: #ffffff8e;
     display: none;
     transition: all 1s;
     text-align: justify;
@@ -193,7 +220,7 @@ canvas{
     width:100%;
     border-radius: 10px;
     padding: 10px;
-    background-color: #FFEECF;
+    background-color: #ffffff8e;
     display: none;
     transition: all 1s;
     text-align: justify;
