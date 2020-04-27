@@ -17,7 +17,7 @@ can.addEventListener("click",function(){
     about.style.display = "none"
     faq.style.display = "none"
     spon.style.display = "none"
-    body.style.backgroundColor = "#6696ba" 
+
 
     for(var i= 0;i<images.length;i++){
         images[i].style.opacity = 1
@@ -34,7 +34,7 @@ aboutnav.addEventListener("click",function(){
     faq.style.display = "none"
     spon.style.display = "none"
 
-    body.style.backgroundColor = "#E5DE44"
+
     for(var i= 0;i<images.length;i++){
         images[i].style.opacity = 0.2
         images[i].style.zIndex = 0
@@ -48,7 +48,7 @@ sponnav.addEventListener("click",function(){
     about.style.display = "none"
     faq.style.display = "none"
     spon.style.display = "block"
-    body.style.backgroundColor = "#E5DE44"
+
 
     for(var i= 0;i<images.length;i++){
         images[i].style.opacity = 0.2
@@ -66,7 +66,7 @@ faqnav.addEventListener("click",function(){
     about.style.display = "none"
     faq.style.display = "block"
     spon.style.display = "none"
-    body.style.backgroundColor = "#E5DE44"
+
 
 
     for(var i= 0;i<images.length;i++){
