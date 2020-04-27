@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body{
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Righteous', cursive;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -74,6 +73,9 @@ canvas{
 .cloud-img{
     width: 20%;
 }
+.center-m{
+    display: none;
+}
 .dd{
     z-index: 10;
     margin-top: 40%;
@@ -93,8 +95,6 @@ canvas{
 #cloud1{
     margin: 4% auto;
     z-index: 10;
-
-
 }
 #about{
     display: none;
@@ -202,7 +202,31 @@ canvas{
         margin-top: 30%;
         width: 60%;
     }
+    canvas{
+        z-index: 0;
+    }
     .center{
+        position: absolute;
         flex-direction: row;
+    }
+    .point{
+        display: none;
+    }
+    .dd{
+        height: 100%;
+        margin: 0;
+    }
+    #cloud2{
+        float: left;
+        z-index: 100;
+    }
+    #cloud3{
+        float: right;
+        z-index: 100;
+    
+    }
+    #cloud1{
+        z-index: 100;
+        
     }
 }
