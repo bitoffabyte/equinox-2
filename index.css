@@ -85,3 +85,65 @@ canvas{
 #about{
     margin: 10%;
 }
+
+/* faq */
+.faqc{
+    display: flex;
+    text-align: center;
+}
+.faq1{
+    width: 50%;
+    text-align: center;
+    margin: 20px;
+
+}
+.faq2{
+    width: 50%;
+    text-align: center;
+    margin: 20px;
+
+}
+.faqq{
+    width:100%;
+    padding: 10px;
+    background-color: #E5DE44;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: justify;
+    cursor: pointer;
+
+}
+.faqqq{
+    align-items: center;
+    width:90%;
+    padding: 10px;
+    background-color: #E5DE44;
+    border-radius: 10px;
+    margin: auto;
+    text-align: justify;
+    cursor: pointer;
+}
+.faqaa{
+    margin: 10px auto;
+    width:90%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E5DE44;
+    display: none;
+    transition: all 1s;
+    text-align: justify;
+    cursor: pointer;
+
+}
+.faqa{
+    margin: 10px;
+    width:100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E5DE44;
+    display: none;
+    transition: all 1s;
+    text-align: justify;
+    cursor: pointer;
+
+}

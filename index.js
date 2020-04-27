@@ -76,3 +76,162 @@ faqnav.addEventListener("click",function(){
     }
 
 })
+
+
+
+// faq
+var fq1 = document.querySelector("#faqq1")
+var fq2 = document.querySelector("#faqq2")
+var fq3 = document.querySelector("#faqq3")
+var fq4 = document.querySelector("#faqq4")
+var fq5 = document.querySelector("#faqq5")
+var fq6 = document.querySelector("#faqq6")
+var fq7 = document.querySelector("#faqq7")  
+
+
+var fa1 = document.querySelector("#faqa1")
+var fa2 = document.querySelector("#faqa2")
+var fa3 = document.querySelector("#faqa3")
+var fa4 = document.querySelector("#faqa4")
+var fa5 = document.querySelector("#faqa5")
+var fa6 = document.querySelector("#faqa6")
+var fa7 = document.querySelector("#faqa7")
+
+
+fq1.addEventListener('click' , ()=>{
+    if(fa1.style.display != "block"){
+        fa1.style.display = "block"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none"
+    }
+    else{
+        fa1.style.display = "none"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none" 
+    }
+
+})
+fq2.addEventListener('click' , ()=>{
+    if(fa2.style.display != "block"){
+        fa2.style.display = "block"
+        fa1.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none"
+    }
+    else{
+        fa1.style.display = "none"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none" 
+    }
+})
+
+fq3.addEventListener('click' , ()=>{
+    if(fa3.style.display != "block"){
+        fa3.style.display = "block"
+        fa2.style.display = "none"
+        fa1.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none"
+    }
+    else{
+        fa1.style.display = "none"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none" 
+    }
+})
+
+
+
+fq4.addEventListener('click' , ()=>{
+    if(fa4.style.display != "block"){
+        fa4.style.display = "block"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa1.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none"
+    }
+    else{
+        fa1.style.display = "none"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none" 
+    }
+})
+
+fq5.addEventListener('click' , ()=>{
+    if(fa5.style.display != "block"){
+        fa5.style.display = "block"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa1.style.display = "none"
+        fa6.style.display = "none"
+    }
+    else{
+        fa1.style.display = "none"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none" 
+    }
+})
+fq6.addEventListener('click' , ()=>{
+    if(fa6.style.display != "block"){
+        fa6.style.display = "block"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa1.style.display = "none"
+    }
+    else{
+        fa1.style.display = "none"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none" 
+    }
+})
+
+fq7.addEventListener('click' , ()=>{
+    if(fa7.style.display != "block"){
+        fa1.style.display = "none"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none"
+        fa7.style.display = "block"
+
+    }
+    else{
+        fa1.style.display = "none"
+        fa2.style.display = "none"
+        fa3.style.display = "none"
+        fa4.style.display = "none"
+        fa5.style.display = "none"
+        fa6.style.display = "none" 
+        fa7.style.display = "none" 
+    }
+
+})
