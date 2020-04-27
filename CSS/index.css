@@ -206,8 +206,15 @@ canvas{
         z-index: 0;
     }
     .center{
-        position: absolute;
+        position: fixed;
         flex-direction: row;
+    }
+    .img1{
+        height: 10%;
+        width: 40%;
+    }
+    .cloud-img{
+        width: 30;
     }
     .point{
         display: none;
