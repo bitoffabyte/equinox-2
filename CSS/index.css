@@ -105,7 +105,7 @@ canvas{
 
 
 .h1logo{
-    width: 50%;
+    width: 70%;
 }
 
 
@@ -116,7 +116,7 @@ canvas{
     width: 70%;
     top: 5%;
     left: 15%;
-    background-color: 	#6696ba;
+    background-color: 	#04BCAF;
     border-radius: 40px;
     position: fixed;
     opacity: 0;
@@ -194,3 +194,4 @@ canvas{
     cursor: pointer;
 
 }
+@media all
