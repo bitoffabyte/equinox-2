@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-body{
+body
+{
     font-family: 'Righteous', cursive;
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #202040;
+    background-image: radial-gradient(#fdc65f,#faca70,#ffd483,#f5d18f,#ffd586,#fddda0,#fae2b7,#f8e5c1,#f5e9d4,#f8f4ed) ;
     transition: all 1s;
     /* background-color: rgb(66, 0, 151); */
     overflow: hidden;
-
-    
 }
 
 html{
@@ -96,6 +95,7 @@ canvas{
 }
 .cloud-img{
     width: 20%;
+    cursor: pointer;
 }
 .center-m{
     display: none;
@@ -146,8 +146,8 @@ canvas{
     width: 70%;
     top: 5%;
     left: 15%;
-    color: rgb(255, 255, 255);
-    background-color: 	#543864;
+    color: black;
+    background: whitesmoke;
     border-radius: 40px;
     position: fixed;
     opacity: 0;
