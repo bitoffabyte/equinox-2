@@ -152,7 +152,7 @@ canvas{
     position: fixed;
     opacity: 0;
     transition: all 1s;
-    box-shadow: 10px 10px 8px #000000;
+    box-shadow: 10px 10px 8px rgba(71, 71, 71, 0.74);
     padding: 20px;
     overflow: auto;
     -ms-overflow-style: none;   
@@ -169,17 +169,20 @@ canvas{
 .faqc{
     display: flex;
     text-align: center;
+    margin: 40px;
 }
 .faq1{
     width: 50%;
     text-align: center;
     margin: 20px;
+    position: relative;
+    left: -5%;
 
 }
 .faq2{
     width: 50%;
     text-align: center;
-    margin: 20px;
+   margin: 20px;
 
 }
 .faqlogo{
@@ -297,6 +300,7 @@ canvas{
     .faq1{
         width: 90%;
         margin: 0px;
+        left: 0%;
     }
     .faq2{
         width: 90%;
@@ -304,3 +308,10 @@ canvas{
         margin-top: -10px;
     }
 }
+/*gradient text*/
+h1 {
+    font-size: 60px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
