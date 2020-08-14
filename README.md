@@ -1,2 +1,2 @@
 # equinox-2
-https://r-narayan.github.io/equinox-2/.
+https://rootnarayan.github.io/equinox-2/.
